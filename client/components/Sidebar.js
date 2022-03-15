@@ -10,23 +10,23 @@ import RoomAvatar from './RoomAvatar'
 
 const dummyChannels = [
   {
-    id: 1,
-    name: 'general',
+    roomId: 1,
+    roomName: 'general',
     avatar: avatar1,
   },
   {
-    id: 2,
-    name: 'random',
+    roomId: 2,
+    roomName: 'random',
     avatar: avatar2,
   },
   {
-    id: 3,
-    name: 'react',
+    roomId: 3,
+    roomName: 'react',
     avatar: avatar3,
   },
   {
-    id: 4,
-    name: 'vue',
+    roomId: 4,
+    roomName: 'vue',
     avatar: avatar4,
   },
 ]
