@@ -1,22 +1,22 @@
 export const userSchema = {
   name: 'users',
-  title: 'Users',
   type: 'document',
+  title: 'Users',
   fields: [
     {
       name: 'name',
-      title: 'Name',
       type: 'string',
+      title: 'Name',
     },
     {
       name: 'walletAddress',
-      title: 'Wallet Address',
       type: 'string',
+      title: 'Wallet Address',
     },
     {
-      name: 'profilePicture',
-      title: 'Profile Picture',
+      name: 'profileImage',
       type: 'image',
+      title: 'Profile Image',
     },
   ],
 }

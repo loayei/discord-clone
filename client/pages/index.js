@@ -1,14 +1,15 @@
 import styles from '../styles/Home.module.css'
-import Sidebar from '../components/Sidebar'
+import SideBar from '../components/Sidebar'
 import ConversationList from '../components/ConversationList'
+import ChatView from '../components/ChatView'
 
 export default function Home() {
   return (
     <div className={styles.wrapper}>
-      <Sidebar />
+      <SideBar />
       <div className={styles.main}>
         <ConversationList />
-        {/* chatview */}
+        <ChatView />
       </div>
     </div>
   )
